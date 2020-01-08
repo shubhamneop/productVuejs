@@ -86,6 +86,8 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/axios/index.js":
+/*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
   \*************************************/
 /*! no static exports found */
@@ -78941,20 +78943,10 @@ module.exports = function(module) {
 
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
+  !*** ./resources/js/app.js ***!
   \*****************************/
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*! no exports provided */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open '/var/www/html/vuetraining/productVuejs/resources/js/app.js'");
-=======
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-=======
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
->>>>>>> productlist
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -79104,7 +79096,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
->>>>>>> 6627d8cb20b79dc6854cab2d06616f1e008ffe45
 
 /***/ }),
 
@@ -79183,7 +79174,6 @@ __webpack_require__.r(__webpack_exports__);
   \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
-
 
 // removed by extract-text-webpack-plugin
 
