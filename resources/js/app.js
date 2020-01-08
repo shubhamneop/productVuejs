@@ -23,7 +23,7 @@ Vue.use(BootstrapVue)
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('product-list', require('./components/Productlist').default);
-
+Vue.component('product-show',require('./components/ProductShow').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
