@@ -8,7 +8,9 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 import BootstrapVue from 'bootstrap-vue'
-
+import VModal from 'vue-js-modal'
+ 
+Vue.use(VModal)
 Vue.use(BootstrapVue)
 /**
  * The following block of code may be used to automatically register your

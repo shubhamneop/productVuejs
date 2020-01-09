@@ -81,8 +81,9 @@ class ProductController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Product $product)
-    {
-        //
+    {    $product = Product::with('size','image')->find($request->id);
+          $product->update($request->all());
+         return $product->toArray(); 
     }
 
     /**
