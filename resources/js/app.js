@@ -8,7 +8,9 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 import BootstrapVue from 'bootstrap-vue'
-
+import VModal from 'vue-js-modal'
+ 
+Vue.use(VModal)
 Vue.use(BootstrapVue)
 /**
  * The following block of code may be used to automatically register your
@@ -23,7 +25,7 @@ Vue.use(BootstrapVue)
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('product-list', require('./components/Productlist').default);
-
+Vue.component('product-show',require('./components/ProductShow').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
